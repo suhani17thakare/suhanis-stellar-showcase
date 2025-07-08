@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { useInView } from 'react-intersection-observer';
 import { Mail, Phone, MapPin, Linkedin, Github, Send, MessageCircle } from 'lucide-react';
@@ -40,8 +39,8 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      content: 'suhani.thakare@example.com',
-      link: 'mailto:suhani.thakare@example.com',
+      content: 'thakaresuhani17@gmail.com',
+      link: 'mailto:thakaresuhani17@gmail.com',
       color: 'from-red-500 to-pink-500'
     },
     {
@@ -135,7 +134,7 @@ const Contact = () => {
                   <Github className="w-6 h-6" />
                 </a>
                 <a
-                  href="mailto:suhani.thakare@example.com"
+                  href="mailto:thakaresuhani17@gmail.com"
                   className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center hover:bg-red-700 transition-all duration-300 transform hover:scale-110"
                 >
                   <Mail className="w-6 h-6" />
